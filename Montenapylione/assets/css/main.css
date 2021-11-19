@@ -1,0 +1,39 @@
+:root {
+  --red-color: #ed1c24;
+  --blue-color: #004b79;
+  --light-blue-color: #0dd3ff;
+  --font-roboto: "Roboto", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font-roboto);
+  overflow-x: hidden;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.navbar {
+  background-color: red;
+}
+
+.navbar ul.navbar-menu {
+  width: 100%;
+  list-style: none;
+}
